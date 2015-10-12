@@ -1,0 +1,250 @@
+/* CSS declarations go here */
+
+.cbrd {
+    border: 1px solid;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+}
+
+.drag-chip .cbrd {
+    padding: 1px 0 0;
+}
+:
+.mask-top,.mask-bottom {
+    height: 2px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.mask-left,.mask-right {
+    top: 1px;
+    position: absolute;
+    width: 2px;
+}
+
+.mask-top {
+    top: 1px;
+}
+
+.mask-bottom {
+    bottom: 1px;
+}
+
+.mask-left {
+    left: 0;
+    border-left: 1px solid;
+}
+
+.mask-right {
+    right: 0;
+    border-right: 1px solid;
+}
+
+.wk-allday .st-bg-all {
+    border-left: none;
+    border-right: none;
+}
+
+.wk-allday .st-bg-lc {
+    border-right: 1px solid #ddd;
+}
+
+.st-bg-today,.st-bg-td-first,.st-bg-td-last {
+    background: #eaeaea;
+    border-left: 1px solid #666;
+}
+
+.st-bg-next {
+    border-left: 1px solid #666;
+}
+
+.wk-allday .st-bg-today {
+    background: #f1f1f1;
+}
+
+.wk-allday .st-bg-next,.wk-allday .st-bg-today,.wk-allday .st-bg-td-first,.wk-allday .st-bg-td-last {
+    border-left: 1px solid #ddd;
+}
+
+.wk-allday .st-bg-td-last {
+    border-right: 1px solid #ddd;
+}
+
+.tg-mainwrapper {
+    position: relative;
+}
+
+.tg-timedevents {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    margin-top: -1px;
+    table-layout: fixed;
+    width: 100%;
+}
+
+.tg-timedevents {
+    margin-top: -2px;
+}
+
+.wbkt .tg-timedevents {
+    border-right: 1px solid #ddd;
+}
+
+.bg-exists .tg-timedevents {
+    background: transparent;
+}
+
+.bg-exists .tg-times-pri,.bg-exists .tg-times-sec,.bg-exists .tg-times-start,.bg-exists .tg-times-end,.bg-exists .chip {
+    opacity: .9;
+    filter: alpha(opacity=90);
+}
+
+.tg-times-pri,.tg-times-sec {
+    background-color: #fff;
+    color: #555;
+    padding: 1px 0 0;
+    text-align: right;
+    vertical-align: top;
+}
+
+.tg-times-sec {
+    background-color: #fff;
+    color: #aaadbc;
+}
+
+.tg-times-start,.tg-times-end {
+    background-color: #fff7d7;
+    color: #555;
+    padding: 1px 0 0;
+    text-align: right;
+    vertical-align: top;
+    padding-right: 2px;
+}
+
+.tg-times-end {
+    background-color: #d9f2db;
+}
+
+.tg-time-pri,.tg-time-sec {
+    border-bottom: 1px solid #ddd;
+    padding-right: 2px;
+}
+
+.tg-time-pri-last,.tg-time-sec-last,.tg-times-start-last,.tg-times-end-last {
+    border-bottom: none;
+}
+
+.tg-time-sec,.tg-time-start,.tg-time-end {
+    border-bottom: 1px solid #e7ebef;
+}
+
+.tg-times-pri,.tg-times-sec {
+    border-left: 1px solid #ddd;
+}
+
+.ep-scg .tg-times-pri,.ep-scg .tg-times-sec {
+    border-left: none;
+}
+
+.ep-scg .tg-timesnotlast {
+    border-right: 1px solid #ddd;
+}
+
+.tg-col {
+    border-left: 1px solid #ddd;
+    vertical-align: top;
+}
+
+.tg-col-today {
+    border-left: 1px solid #ddd;
+    vertical-align: top;
+}
+
+.tg-col-overlaywrapper {
+    position: relative;
+    height: 0;
+}
+
+.tg-gutter {
+    position: relative;
+    height: 0;
+    margin-right: 10px;
+}
+
+.tg-col-eventwrapper {
+    position: relative;
+    cursor: default;
+}
+
+.tg-today {
+    background-color: #f1f1f1;
+}
+
+.bg-exists .tg-today {
+    background-color: #eee;
+    opacity: .5;
+    filter: alpha(opacity=50);
+}
+
+.tg-spanningwrapper {
+    position: relative;
+    margin: 1px 0 0 1px;
+}
+
+.tg-chipspanningwrapper {
+    line-height: 0;
+    margin: 0 10px 0 1px;
+    z-index: 1;
+}
+
+.tg-hourmarkers {
+    position: absolute;
+    width: 100%;
+}
+
+.tg-markercell {
+    height: 42px;
+}
+
+.tg-markercell60 {
+    height: 60px;
+}
+
+.tg-dualmarker,.tg-dualmarker60 {
+    border-bottom: 1px dotted #ddd;
+    border-top: 1px solid #ddd;
+    font-size: 1px;
+}
+
+.tg-dualmarker {
+    height: 20px;
+    margin-bottom: 20px;
+}
+
+.tg-dualmarker60 {
+    height: 29px;
+    margin-bottom: 29px;
+}
+
+.tg-nowmarker {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 0;
+    height: 0;
+    border-top: 2px solid #ff7f6e;
+    overflow: hidden;
+}
+
+.tg-nowptr {
+    position: absolute;
+    background-position: -60px -68px;
+    width: 5px;
+    height: 9px;
+    background-image: url(//calendar.google.com/googlecalendar/images/combined_v46_vr.png);
+}
+
+.rtl .tg-nowptr {
+    background-position: -67px -68px;
+}
