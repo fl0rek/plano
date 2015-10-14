@@ -1,1 +1,16 @@
 /* CSS declarations go here */
+.wyk {
+	background-color: tan;
+}
+
+.lek {
+	background-color: orange;
+}
+
+.lab {
+	background-color: tomato;
+}
+
+.greyed_out {
+	background-color: lightgray !important;
+}
